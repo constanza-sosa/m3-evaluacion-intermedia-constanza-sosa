@@ -6,7 +6,7 @@ class PokeList extends React.Component {
   render() {
 
     return (
-      <React.Fragment>
+      
           <ol className="Pokemon-list">
           {this.props.data
           .map((pokemon) => {
@@ -21,7 +21,7 @@ class PokeList extends React.Component {
           );
           })}
           </ol>
-        </React.Fragment>
+
     );
   }
 }
