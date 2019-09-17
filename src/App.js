@@ -19,7 +19,7 @@ class App extends React.Component {
           </h1>
         </header>
         <main className="App-main">
-          <PokeList data={pokemons}/>
+          <PokeList data={this.state.pokemons}/>
         </main>
       </div>
     );

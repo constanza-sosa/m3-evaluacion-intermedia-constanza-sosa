@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 class Pokemon extends React.Component {
   render() {
     return (
-      <React.Fragment>
         <div className="Pokemon-item-container">
           <img className="Pokemon-img"
             src={this.props.url}
@@ -19,7 +18,6 @@ class Pokemon extends React.Component {
             })}
           </ul>
         </div>
-        </React.Fragment>
     );
   }
 }
